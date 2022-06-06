@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background: burlywood;
+}
+.user{
+    height: 75vh;
+    background-color:rgba(3, 3, 3, 0.022);
+
+}
+.paginations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.paginations button{ 
+
+    width:50px;
+    height:30px;
+    border:none;
+    outline: none;
+    background-color: rgb(182, 182, 246);
+    margin: 5px;
+    transition: 2.4s;
+    color:black;
+    text-shadow:0px 0px 4px rgb(0,0,0,0.2)
+   
+
+}
